@@ -7,15 +7,15 @@ echo "Checking the $service details"
 if [ $arg == status ]
 then 
 	echo "$service status"
-	service $arg $service
+	service $service $arg
 elif [ $arg == start ]
 then
 	echo "$service starting"
-	service $arg $service
+	service $service $arg
 elif [ $arg == restart ]
 then
 	echo "$service restarting"
-	service $arg $service
+	service $service $arg
 else
 	echo "please type status|start|restart keywords"
 fi
