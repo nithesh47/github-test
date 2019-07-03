@@ -1,5 +1,7 @@
 #!/bin/bash
-service=$1
+#to check the service 
+servic=$1
+#service
 arg=$2
 echo "Checking the $service details"
 if [ $arg == status ]
